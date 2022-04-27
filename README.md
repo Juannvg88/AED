@@ -1,7 +1,7 @@
 # AED
 * Algoritmos y Estructuras de Datos
 * Curso.
-* Año de cursada, y cuatrimestre si corresponde.
+* Año de cursada, y cuatrimestre si corresponde: 2022
 * Legajo.
-* Apellido.
-* Nombre.
+* Apellido: Gonzalez
+* Nombre: Juan Victor
