@@ -2,6 +2,7 @@
 //#include<iostream>
 //#include<iomanip>
 #include<string>
+#include<cstring>
 using namespace std::literals;
 
 int main()
@@ -23,7 +24,8 @@ int main()
     assert(true or true and false);
     assert(false != true and true or false);
     assert(true == true);
-    assert(false != (5 + 5.5 == 10));
+    assert(false != (5 + 5.0 == 10));
+    
     /*
     Tipo de dato Double
     Números Reales
@@ -95,7 +97,18 @@ int main()
     char s []= "hola";
     char t []= "hola";
     assert(s != t);
+    assert(0==strcmp(s,t));
 
+}
+
+{
+    std::string s {"hola"s};
+    std::string t {"hola"s};
+    assert(s == t);
+
+    s = "chau";
+    assert(s == "chau");
+    
 
 }
 
