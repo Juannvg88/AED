@@ -65,9 +65,19 @@ int main()
    assert(9999 == 9998 + 1);
    assert(1400 <= 1500);
    assert(8000 >= 1000);
-   
+   /*
+    Tipo de dato Char
+    Carateres disponibles de la tabla ASCII
+    */
+    char('A' != 'B');
+    char('A' <= 'B');
+    char('A' == 65);
+    char('8' != '1' + '7');
+    char('a' != 'A');
+
+
     /*
-    //Tipo de dato String
+    Tipo de dato String
     Compuesto, expresa carateres
     Diferencia con CHAR, se expresa entre comillas
     */
@@ -79,11 +89,14 @@ int main()
     assert("AA"s < "AB"s);
     assert('A'== 65);
     assert("carpa" == "carpa");
+    
 
 {
     char s []= "hola";
     char t []= "hola";
     assert(s != t);
+    assert(0 == strcmp(s,t));
+    
 }
 
 }
