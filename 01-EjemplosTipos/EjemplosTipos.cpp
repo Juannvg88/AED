@@ -95,8 +95,8 @@ int main()
     char s []= "hola";
     char t []= "hola";
     assert(s != t);
-    assert(0 == strcmp(s,t));
-    
+
+
 }
 
 }
