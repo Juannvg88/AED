@@ -3,19 +3,18 @@
 
 int main()
 {
-    int a, b, c;
     int suma;
-    a == 1;
-    b == 2;
-    c == 1;
+    int a=10;
+    int b=2;
+    int c=3;
+    suma = a + b + c;
+   
     std::cout << "El resultado es: " << suma;
-    return 0;
-
+    
 }
 
 int suma(int a, int b, int c){
-    int suma;
-    suma == a + b + c;
-    return suma;
+    int suma = a + b + c;
+    return 0;
 }
 
